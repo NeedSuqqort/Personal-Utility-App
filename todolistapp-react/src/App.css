@@ -1,0 +1,47 @@
+.bg{
+    background-color: lightcyan;
+}
+
+#base{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+#header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:48px;
+    font-Weight:bold;
+    margin-bottom:20px;
+}
+
+#todo{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+    border-radius:5px;
+    background-color: lightgreen;
+}
+
+#edit,#delete{
+    margin-right: 10px;
+    color: black;
+}
+
+.credits{
+    position: fixed;
+    width: 100%;
+    background-color: pink;
+    bottom: 0;
+    height: 60px;
+    color: black;
+    font-size: 20px;
+    border-top: 1px;
+    padding-right: 15px;
+    text-align: right;
+}
+
